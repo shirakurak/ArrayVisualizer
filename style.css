@@ -1,0 +1,19 @@
+body {
+  background-color: gray;
+  color: white;
+}
+#rectangle {
+  width: 200px;
+  height: 100px;
+  border: 2px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
